@@ -1,0 +1,23 @@
+<html>
+<head><title>imageswap</title></head>
+<link href="swap.css" rel="stylesheet" type="text/css">
+ <script type="text/javascript">
+ 
+  function over(x)
+   {
+     var a=document.getElementById("two").src;
+	 document.getElementById("two").src= document.getElementById(x).src;
+	 document.getElementById(x).src=a
+   }
+ </script>
+<body>
+ <div class="a">
+   <img src="Lambo1-HD - Copy.jpg" id="two" style="height:100%;width:100%">
+ </div>
+ <marquee direction="left" >
+  <div class="b">
+   <img src="lambo - Copy.jpg" id="one" onmouseover='over("one");' style="height:100%;width:100%">
+  </div>
+ </marquee>
+</body>
+</html>

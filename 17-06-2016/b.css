@@ -1,0 +1,20 @@
+.b
+{
+ height:1000px;
+ width:1200px; 
+ border:1px solid black;
+
+ 
+}
+.c
+{
+	height:20px;
+	width:50px;
+	margin-left:20px;
+	text-decoration:underline;
+	color:blue;
+}
+.c:hover
+{
+	color:red;
+}

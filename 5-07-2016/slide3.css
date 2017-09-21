@@ -1,0 +1,72 @@
+.a
+{
+ height:500px;
+ width:501px;
+ border:1px solid black;
+ margin-left:400px;
+ margin-top:70px;
+ background-color:yellow;
+}
+
+.b
+{
+ height:450px;
+ width:450px;
+ border:1px solid black;
+ margin-top:25px;
+ margin-left:24px;
+ background-color:orange;
+}
+.c
+{
+ height:400px;
+ width:400px;
+ border:1px solid black;
+ margin-top:25px;
+ background-color:#FE1043;
+}
+.d
+{
+ height:350px;
+ width:350px;
+ border:1px solid black;
+ margin-top:25px;
+ background-color:red;
+}
+.e
+{
+ height:300px;
+ width:300px;
+ border:1px solid black;
+ margin-top:25px;
+}
+
+.a:hover
+{
+ transform:rotate(360deg);
+ transition:10s;
+}
+
+.b:hover
+{
+ transform:rotate(360deg);
+ transition:10s;
+}
+
+.c:hover
+{
+ transform:rotate(360deg);
+ transition:10s;
+}
+
+.d:hover
+{
+ transform:rotate(360deg);
+ transition:10s;
+}
+
+.e:hover
+{
+ transform:rotate(360deg);
+ transition:10s;
+}

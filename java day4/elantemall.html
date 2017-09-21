@@ -1,0 +1,54 @@
+<html>
+<head><title>ElanteMall</title></head>
+<script type="text/javascript">
+ function sum()
+  {
+   var a=document.getElementById("a").value;
+   var b=document.getElementById("b").value;
+   var c=Number(a)*Number(b);
+   document.getElementById("c").value=c;
+  }
+//second
+function sum1()
+  {
+   var d=document.getElementById("d").value;
+   var e=document.getElementById("e").value;
+   var f=Number(d)*Number(e);
+   document.getElementById("f").value=f;
+  }
+//third
+function sum2()
+  {
+   var g=document.getElementById("g").value;
+   var h=document.getElementById("h").value;
+   var i=Number(g)*Number(h);
+   document.getElementById("i").value=i;
+  }  
+//fourth
+function sum3()
+  {
+   var j=document.getElementById("j").value;
+   var k=document.getElementById("k").value;
+   var l=Number(j)*Number(k);
+   document.getElementById("l").value=l;
+  }    
+
+</script>
+<body>
+ <div style="height:350px;width:600px;border:1px solid black;margin-left:350px;margin-top:100px;float:left">
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="a" ></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="b"></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="c" onclick="sum();" ></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="d" ></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="e" ></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="f" onclick="sum1();"></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="g" ></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="h" ></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="i" onclick="sum2();"></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="j" ></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="k" ></div>
+  <div style="height:73px;width:198px;border:1px solid black;float:left"><input type="text" style="height:100%;width:100%;" id="l" onclick="sum3();"></div>
+  <div></div>
+ </div>
+</body>
+</html>

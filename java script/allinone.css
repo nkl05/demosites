@@ -1,0 +1,17 @@
+.a
+{
+height:640px;
+width:1347px;
+border:0px solid black;
+background: linear-gradient(to right, skyblue , yellow);
+}
+
+.b
+{
+ height:300px;
+ width:400px;
+ border:1px solid black;
+ margin-left:475px;
+ 
+}
+

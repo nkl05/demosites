@@ -1,0 +1,185 @@
+.a
+{
+ height:100px;
+ width:150px;
+ border:5px solid white;
+ border-radius:10px;
+ margin-left:10px;
+ margin-top:10;
+ opacity:0.9;
+ background-image:url('download.jpg');
+}
+.a:hover
+{
+ border-color:red;
+ height:100px;
+ width:150px;
+ background-image:url('lambo1.jpg');
+ transition:1s;
+}
+
+.b
+{
+ height:100px;
+ width:150px;
+ border:5px solid white;
+ border-radius:10px;
+ margin-left:10px;
+ margin-top:10;
+ opacity:0.9; 
+ background-image:url('download.jpg'); 
+}
+
+.b:hover
+{
+ border-color:black;
+ height:100px;
+ width:150px;
+ background-image:url('Lambo1-HD.jpg');
+ transition:1s;
+}
+
+.c
+{
+ height:100px;
+ width:150px;
+ border:5px solid white;
+ border-radius:10px;
+ margin-left:10px;
+ margin-top:10;
+ opacity:0.9; 	
+ background-image:url('download.jpg');
+}
+.c:hover
+{
+ border-color:grey;
+ height:100px;
+ width:150px;
+ background-image:url('Aventador.jpg');
+ transition:1s;
+}
+
+.d
+{
+ height:100px;
+ width:150px;
+ border:5px solid white;
+ border-radius:10px;
+ margin-left:10px;
+ margin-top:10;
+ opacity:0.9; 	
+ background-image:url('download.jpg');
+ float:left;
+}
+.d:hover
+{
+ border-color:darkorange;
+ height:100px;
+ width:150px;
+ background-image:url('lambo.jpg');
+ transition:1s;
+}
+
+.x
+{
+  height:460px;
+  width:945px;
+  border:5px solid white;
+  border-radius:10px;
+  float:left;
+  margin-top:-350px;
+  margin-left:10px;
+  opacity:0.9;
+  color:black;
+}
+.x:hover
+{
+ height:465px;
+ width:955px;
+ border:5px solid white;
+ transition:1s;
+}
+
+.e
+{
+ height:100px;
+ width:150px;
+ border:5px solid white;
+ border-radius:10px;
+ margin-left:10px;
+ margin-top:-350;
+ opacity:0.9; 	
+ background-image:url('download.jpg');
+ float:left;
+}
+.e:hover
+{
+ border-color:orange;
+ height:100px;
+ width:150px;
+ background-image:url('lamborghini-aventador-lp-700-4-supercar-parking-hd-wallpaper.jpg');
+ transition:1s;
+}
+
+.f
+{
+ height:100px;
+ width:150px;
+ border:5px solid white;
+ border-radius:10px;
+ margin-left:10px;
+ margin-top:-230;
+ opacity:0.9; 	
+ background-image:url('download.jpg');
+ float:left;
+}
+.f:hover
+{
+ border-color:orange;
+ height:100px;
+ width:150px;
+ background-image:url('646973922.png');
+ transition:1s;
+}
+
+.g
+{
+ height:100px;
+ width:150px;
+ border:5px solid white;
+ border-radius:10px;
+ margin-left:10px;
+ margin-top:-110;
+ opacity:0.9; 	
+ background-image:url('download.jpg');
+ float:left;
+}
+.g:hover
+{
+ border-color:orange;
+ height:100px;
+ width:150px;
+ background-image:url('173236-lamborghini-aventador-white.jpg');
+ transition:1s;
+}
+
+.h
+{
+ height:100px;
+ width:150px;
+ border:5px solid white;
+ border-radius:10px;
+ margin-left:10px;
+ margin-top:10;
+ opacity:0.9; 	
+ background-image:url('download.jpg');
+ float:left;
+}
+.h:hover
+{
+ border-color:orange;
+ height:100px;
+ width:150px;
+ background-image:url('2925_lamborghini_aventador.jpg');
+ transition:1s;
+}

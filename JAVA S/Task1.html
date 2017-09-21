@@ -1,0 +1,50 @@
+<html>
+<head><title>JS</title></head>
+<link href="Task1.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function text()
+{
+ var a=document.getElementById("name1").value;
+ var b=document.getElementById("name2").value;
+ var c=Number(a)+Number(b);
+ document.getElementById("Name3").value=c;
+ //alert(c);
+}
+
+function text2()
+{
+ var a=document.getElementById("name1").value;
+ var b=document.getElementById("name2").value;
+ var c=Number(a)-Number(b);
+ document.getElementById("Name3").value=c;
+ //alert(c);
+}
+
+function text3()
+{
+ var a=document.getElementById("name1").value;
+ var b=document.getElementById("name2").value;
+ var c=Number(a)*Number(b);
+ document.getElementById("Name3").value=c;
+ //alert(c);
+}
+
+function text4()
+{
+ var a=document.getElementById("name1").value;
+ var b=document.getElementById("name2").value;
+ var c=Number(a)/Number(b);
+ document.getElementById("Name3").value=c;
+ //alert(c);
+}
+</script>
+<body bgcolor="black">
+<div align="center" style="color:white;font-size:50;">CALCULATOR</div>
+<center><div class="a"><div class="b">First Number- <input type="text" style="border-radius:5px" placeholder="Enter any number" id="name1"><br><br> Second Number- <input type="text" style="border-radius:5px" placeholder="Enter any number" id="name2"><br><br> Result- <input type="text" style="border-radius:5px" placeholder="Enter any number" id="Name3">
+<br><br><input type="button" value="add" onclick='text();'>
+<input type="button" value="Sub" onclick='text2();'>
+<input type="button" value="multiple" onclick='text3();'>
+<input type="button" value="div" onclick='text4();'>
+</div></div></center>
+</body>
+</html>

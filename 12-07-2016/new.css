@@ -1,0 +1,234 @@
+.a
+{
+  height:407px;
+  width:501px;
+  border:1px solid black;
+  border-radius:10px;
+  margin-left:400px;
+  margin-top:100px;
+  background-color:orange;
+}
+
+.b
+{
+  height:100px;
+  width:500px;
+  border:1px solid black;
+  border-radius:10px;
+  background-color:gold;
+}
+
+.c
+{
+  height:100px;
+  width:500px;
+  border:1px solid black;
+  border-radius:10px;
+  background-color:gold;
+}
+
+.d
+{
+  height:100px;
+  width:500px;
+  border:1px solid black;
+  border-radius:10px;
+  background-color:gold;
+}
+
+.e
+{
+  height:100px;
+  width:500px;
+  border:1px solid black;
+  border-radius:10px;
+  background-color:gold;
+}
+
+.f
+{
+  height:100px;
+  width:100px;
+  border:1px solid black;
+  border-radius:10px;
+  float:left;
+  background-color:navy;
+}
+
+.g
+{
+  height:100px;
+  width:100px;
+  border:1px solid black;
+  border-radius:10px;
+  float:left;
+  background-color:orange;
+}
+
+.h
+{
+  height:100px;
+  width:100px;
+  border:1px solid black;
+  border-radius:10px;
+  float:left;
+  background-color:navy;
+}
+
+.i
+{
+  height:100px;
+  width:100px;
+  border:1px solid black;
+  border-radius:10px;
+  float:left;
+  background-color:orange;
+}
+
+.j
+{
+  height:40px;
+  width:396px;
+  border:1px solid black;
+  border-radius:10px;
+  float:left;
+  margin-top:30px;
+}
+
+.k
+{
+  height:40px;
+  width:396px;
+  border:1px solid black;
+  border-radius:10px;
+  float:left;
+  margin-top:30px;
+}
+
+.l
+{
+  height:40px;
+  width:396px;
+  border:1px solid black;
+  border-radius:10px;
+  float:left;
+  margin-top:30px;
+}
+
+.m
+{
+  height:40px;
+  width:396px;
+  border:1px solid black;
+  border-radius:10px;
+  float:left;
+  margin-top:30px;
+}
+
+.j1
+{
+ height:39px;
+ width:10px;
+ border:1px solid black;
+ border-radius:10px;
+}
+
+.j1:hover
+{
+  height:38px;
+  width:250px;
+  border:1px solid silver;
+  border-radius:10px;
+  background-color:silver;
+  transition:3s width;
+}
+
+.k1
+{
+ height:39px;
+ width:10px;
+ border:1px solid black;
+ border-radius:10px;
+}
+
+.k1:hover
+{
+  height:38px;
+  width:200px;
+  border:1px solid silver;
+  border-radius:10px;
+  background-color:silver;
+  transition:3s width;
+}
+
+.l1
+{
+ height:39px;
+ width:10px;
+ border:1px solid black;
+ border-radius:10px;
+}
+
+.l1:hover
+{
+  height:38px;
+  width:300px;
+  border:1px solid silver;
+  border-radius:10px;
+  background-color:silver;
+  transition:3s width;
+}
+
+.m1
+{
+ height:39px;
+ width:10px;
+ border:1px solid black;
+ border-radius:10px;
+}
+
+.m1:hover
+{
+  height:38px;
+  width:330px;
+  border:1px solid silver;
+  border-radius:10px;
+  background-color:silver;
+  transition:3s width;
+}
+
+.f:hover
+{
+  height:100px;
+  width:100px;
+  border:1px solid yellow;
+  border-radius:10px;
+  background-color:yellow;
+}
+
+.g:hover
+{
+  height:100px;
+  width:100px;
+  border:1px solid yellow;
+  border-radius:10px;
+  background-color:yellow;
+}
+
+.h:hover
+{
+  height:100px;
+  width:100px;
+  border:1px solid yellow;
+  border-radius:10px;
+  background-color:yellow;
+}
+
+.i:hover
+{
+  height:100px;
+  width:100px;
+  border:1px solid yellow;
+  border-radius:10px;
+  background-color:yellow;
+}

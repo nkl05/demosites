@@ -1,0 +1,22 @@
+<html>
+<head>
+
+<script type="text/javascript">
+function atm()
+{
+  var total=document.getElementById("txtatm").value;
+  var c= Math.floor(Number(total)/1000);
+  document.getElementById("txt1").value=c;
+  total=total-(Number(c)*1000);
+  
+}
+</script>
+
+<title>ATM</title>
+</head>
+<body>
+<div class="h1">Enter Amount:<input type="text" id="txtatm"></div>
+<div class="m22"><div class="n"><input type="text" id="txt1"></div></div>
+		   <div class="f1"><input type="submit" value="Ok" onclick='atm();'></div>
+		   </body>
+</html>

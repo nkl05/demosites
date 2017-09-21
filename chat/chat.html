@@ -1,0 +1,21 @@
+<html>
+<head><title>chat box</title></head>
+<link href="chat.css" rel="stylesheet" type="text/css">
+<script>
+ function over()
+  {
+    var c=document.getElementById("how").value;
+	document.getElementById("how").value="";
+	document.getElementById("how").focus();
+	document.getElementById("display").innerHTML+=c+"<br>";
+  }
+</script>
+<body>
+<div class="a">
+ <div id="display"></div>
+ <div class="b"><input type="text" id="how" style="height:100%;width:100%;border-radius:5px;"></div>
+ <div class="c"><input type="submit" id="why" value="send" onclick="over()" style="height:100%;width:100%;border-radius:5px;"></div>
+</div>
+
+<body>
+</html>

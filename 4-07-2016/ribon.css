@@ -1,0 +1,17 @@
+.a
+{
+ height:500px;
+ width:1000px;
+ border:1px solid black;
+}
+
+.b
+{
+ height:50px;
+ width:300px;
+ border:1px solid black;
+ margin-top:25px;
+ margin-left:-75px;
+ transform:rotate(-45deg);
+ background-color:red;
+}

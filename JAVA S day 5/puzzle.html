@@ -1,0 +1,25 @@
+<html>
+<head><title>puzzle</title></head>
+<link href="puzzle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+ function swap(x,y)
+   {
+     var a=document.getElementById(x).src;
+	 document.getElementById(x).src= document.getElementById(y).src;
+	 document.getElementById(y).src=a
+   }
+</script>
+<body>
+<div class="a1">
+ <div class="a"><img src="lamborghini-aventador-lp-700-4-supercar-parking-hd-wallpaper - Copy.jpg" id="1" onclick='swap(1,2);' style="height:100%;width:100%"></div>
+ <div class="a"><img src="lamborghini-aventador-lp-700-4-supercar-parking-hd-wallpaper - Copy - Copy.jpg" id="2" onclick='swap(2,4);' style="height:100%;width:100%"></div>
+ <div class="a"><img src="lamborghini-aventador-lp-700-4-supercar-parking-hd-wallpaper - Copy - Copy (8).jpg" id="3" onclick='swap(3,9);' style="height:100%;width:100%"></div>
+ <div class="a"><img src="lamborghini-aventador-lp-700-4-supercar-parking-hd-wallpaper - Copy - Copy (7).jpg" id="4" onclick='swap(4,8);' style="height:100%;width:100%"></div>
+ <div class="a"><img src="lamborghini-aventador-lp-700-4-supercar-parking-hd-wallpaper - Copy - Copy (6).jpg" id="5" onclick='swap(5,6);' style="height:100%;width:100%"></div>
+ <div class="a"><img src="lamborghini-aventador-lp-700-4-supercar-parking-hd-wallpaper - Copy - Copy (5).jpg" id="6" onclick='swap(6,7);' style="height:100%;width:100%"></div>
+ <div class="a"><img src="lamborghini-aventador-lp-700-4-supercar-parking-hd-wallpaper - Copy - Copy (4).jpg" id="7" onclick='swap(7,1);' style="height:100%;width:100%"></div>
+ <div class="a"><img src="lamborghini-aventador-lp-700-4-supercar-parking-hd-wallpaper - Copy - Copy (3).jpg" id="8" onclick='swap(8,9);' style="height:100%;width:100%"></div>
+ <div class="a"><img src="lamborghini-aventador-lp-700-4-supercar-parking-hd-wallpaper - Copy - Copy (2).jpg" id="9" onclick='swap(9,5);' style="height:100%;width:100%"></div>
+</div>
+</body>
+</html>

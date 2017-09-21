@@ -1,0 +1,43 @@
+.a
+{
+ height:450px;
+ width:505px;
+ border:1px solid black;
+ margin-left:400px;
+ background-color:#AAFF55;
+}
+
+#display
+{
+ height:300px;
+ width:400px;
+ border:1px solid black;
+ margin-left:50px;
+ margin-top:20px;
+ background-color:white;
+ overflow:auto;
+}
+
+.b
+{
+ height:30px;
+ width:250px;
+ border:1px solid black;
+ margin-left:50px;
+ background-color:#;
+ margin-top:40px;
+ float:left;
+ border-radius:5px;
+}
+
+.c
+{
+ height:30px;
+ width:100px;
+ border:1px solid black;
+ float:left;
+ background-color:#;
+ margin-top:40px;
+ margin-left:48px;
+ border-radius:5px;
+}

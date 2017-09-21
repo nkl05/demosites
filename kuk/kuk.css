@@ -1,0 +1,211 @@
+.a
+{
+height:100%;
+width:100%;
+}
+
+.a1
+{
+ height:200px;
+ width:2145px;
+ border:px solid black;
+ margin-left:251px;
+ background-color:#2B75EE;
+}
+
+.a2
+{
+height:50px;
+width:2145px;
+border:px solid black;
+font-size:35;
+background-color:#0641A5;
+}
+.a2:hover
+{
+ color:red;
+}
+
+.b
+{
+ height:2950px;
+ width:2142;
+ border:1px solid silver;
+ border-top-color:#2C76EE;
+ margin-left:250px;
+}
+
+.c
+{
+ height:100px;
+ width:2143px;
+ border:px solid black;
+ font-size:35;
+ color:white;
+ background-color:#2C76EE;
+}
+
+.d:hover
+{
+  color:black;
+}
+
+.d
+{
+  height:97px;
+  width:160px;
+  border:px groove black;
+  float:left;
+}
+
+.d
+ {
+   display:inline-block;
+ }
+ 
+.e
+ {
+   display:none;
+   background-color:#D01444;
+   min-width:200px;
+   padding:10px;
+ }
+ 
+.d:hover .e{
+ display:block;
+}
+.m2
+{
+	
+	color:white;
+}
+.m2:hover
+{
+	color:red;
+	
+}
+
+.f
+{
+ height:2330px;
+ width:2145px;
+ border:px solid black;
+}
+
+.f1
+{
+ height:2330px;
+ width:21%;
+ border:px solid black;
+ float:left;
+}
+
+.f2
+{
+ height:2330px;
+ width:50%;
+ border:px solid white;
+ float:left;
+}
+
+.f3
+{
+ height:2330px;
+ width:28.4%;
+ border:px solid black;
+ float:left;
+}
+
+.i1
+{
+  height:120px;
+  width:90%;
+  margin-left:18px;
+  margin-top:30px;
+  border:px solid black;
+}
+
+.i2
+{
+  height:80px;
+  width:90%;
+  margin-left:18px;
+  border-bottom:3px dotted;
+  font-size:30;
+}
+
+.i3
+{
+  height:120px;
+  width:90%;
+  margin-left:18px;
+  border-bottom:3px dotted;
+  font-size:30;
+}
+
+.i2:hover
+{
+	color:red;
+}
+
+.i4
+{
+  height:400px;
+  width:100%;
+  border:1px solid white;
+  font-size:50;
+  font-style:bold;
+}
+
+.i5
+{
+  height:420px;
+  width:100%;
+  border:1px solid white;
+  font-style:bold;	
+}
+
+.i7
+{
+  height:200px;
+  width:49.6%;
+  border:1px solid white;
+  float:left;
+  font-size:40;
+}
+
+.i8
+{
+  height:300px;
+  width:49.6%;
+  border:1px solid white;
+  float:left;
+  font-size:40;
+}
+
+.n1
+{
+ height:550px;
+ width:95%;
+ margin-top:20px;
+ margin-left:10px;
+ border:px solid black;
+}
+
+.n2
+{
+ height:650px;
+ width:95%;
+ margin-top:20px;
+ margin-left:10px;
+ border:1px solid silver;
+}
+
+.g
+{
+ height:100px;
+ width:97%;
+ margin-left:20px;
+ border:1px solid grey;
+ border-top:10px dashed grey;
+}

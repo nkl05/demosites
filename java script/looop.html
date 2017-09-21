@@ -1,0 +1,23 @@
+<html>
+<head><title>Loop</title>
+<script type="text/javascript">
+function dev()
+{
+ var a=document.getElementById("left").value;
+ b=document.getElementById("right").value;
+ c=Number(a)+Number(b);
+ document.getElementById("result").value=c;
+  
+ window.alert(c);
+}
+</script>
+</head>
+<body>
+first num- <input type="text" id="left"><br><br>
+second num- <input type="text" id="right"><br><br>
+
+Result num- <input type="text" id="result"><br><br>
+
+<input type="submit" onclick="dev();">
+</body>
+</html>

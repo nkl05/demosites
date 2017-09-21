@@ -1,0 +1,24 @@
+.a
+{
+ height:200px;
+ width:400px;
+ border:1px solid black;
+ border-radius:5px;
+ margin-top:140px;
+ background-color:white;
+ opacity:0.9;
+}
+.a:hover
+{
+	height:202px;
+	width:404px;
+	background-color:orange;
+	
+}
+
+.b
+{
+ font-size:20;
+ margin-top:20px;
+ color:dark-grey;
+}

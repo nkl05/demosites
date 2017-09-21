@@ -1,0 +1,73 @@
+<html>
+<head><title>Validation</title></head>
+<script type="text/javascript">
+ function validation()
+{
+ var name=document.getElementById('textname').value;
+ password=document.getElementById('password').value;
+ Conpassword=document.getElementById('conpassword').value;
+ quali=document.getElementById('quali').value;
+ country=document.getElementById('country').value;
+ 
+if(name=="")
+{
+ alert("please enter name");
+ document.getElementById('textname').focus();
+ return false;
+}
+
+if(password=="")
+{
+ alert("please enter password");
+ document.getElementById('password').focus();
+ return false;
+}
+
+if(conpassword=="")
+{
+ alert("re-enter you password");
+ document.getElementById('conpassword').focus();
+ return false;
+}
+if(password !=Conpassword)
+{
+ alert("password does not match");
+ document.getElementById('conpassword').focus();
+ return false;
+}
+
+if(quali=="")
+{
+ alert("your qualification");
+ document.getElementById('quali').focus();
+ return false;
+}
+
+if(country=="")
+{
+ alert("enter  your country name");
+ document.getElementById('country').focus();
+ return false;
+}
+if(document.getElementById("male").checked==false&&document.getElementById("female").checked==false)
+{
+alert("select any gender");
+}
+
+}
+</script>
+<body>
+<center><h1 style="font-size:60px">Validation</h1></center>
+<div style="height:405px;width:450px;border:1px solid #E1BC90;border-radius:100px;background-color:#E1BC90;margin-left:450px;margin-top:50px">
+ <div style="font-size:20px;margin-left:26px;margin-top:60px;width:400px;background-color:#E1BC90"> 
+   Username-<input type="text" placeholder="Username" id="textname"><br><br>
+   Password-<input type="password" placeholder="Password" id="password"><br><br>
+   Confirm Password-<input type="password" placeholder="Confirm Password" id="conpassword"><br><br>
+   Qualification-<input type="text" placeholder="Qualification" id="quali"><br><br>
+   Country-<input type="text" placeholder="Name of Country" id="country"><br><br>
+   Gender-<input type="radio" name="a"id="male" >Male<input type="radio" name="a"id="female">Female<br><br>
+   <input style="margin-left:140px;height:30px;width:100px;" type="Submit" onclick='validation()'>
+ </div>
+</div>
+</body>
+</html>

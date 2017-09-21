@@ -1,0 +1,15 @@
+.a
+{
+ height:60;
+ width:90;
+ border:1px solid green;
+ margin-left:200px;
+ margin-top:200px;
+}
+
+.a:hover
+{
+ color:gold;
+ background-color:green;
+ transition:1s;
+}

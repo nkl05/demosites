@@ -1,0 +1,73 @@
+<html>
+<link href="allinone.css" rel="stylesheet" type="text/css">
+<head><title>allinOne</title>
+<script type="text/javascript">
+function one()
+{
+  n=document.getElementById("num1").value
+  m=document.getElementById("num2").value
+ for(i=n;i<=m;i++)
+ {
+  
+  document.getElementById("result").value=document.getElementById("result").value+i;
+ }
+}
+
+function two()
+{
+ n=document.getElementById("num1").value
+ m=document.getElementById("num2").value
+
+ for(i=m;i>=n;i--)
+ {
+  document.getElementById("result").value=document.getElementById("result").value+i;
+ }
+}
+
+function run()
+{
+ n=document.getElementById("num1").value
+ m=document.getElementById("num2").value
+ for(i=n;i<=m;i++)
+ {
+  if(i%2==0)
+  {
+   document.getElementById("result").value=document.getElementById("result").value+i;
+  }
+ }
+
+}
+
+function runs()
+{
+ n=document.getElementById("num1").value
+ m=document.getElementById("num2").value
+ for(i=n;i<=m;i++)
+ {
+  if(i%2==1)
+  {
+   document.getElementById("result").value=document.getElementById("result").value+i;
+  }
+ }
+
+}
+
+</script>
+</head>
+<body>
+<div class="a">
+ <div class="b"><br><br>&nbsp;
+  <input type="text" id="num1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text" id="num2"><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="button" value="Ascending" onclick="one();">&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="button" value="Descending" onclick="two();">&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="button" value="Even" onclick="run();">&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="button" value="odd" onclick="runs();">
+ </div>
+ <textarea rows="10" cols="10" id="result"> </textarea>
+ <div class="c"></div>
+ 
+ 
+</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.a1
+{
+height:645px;
+width:1350px;
+border:1px solid black;
+border-radius:5px;
+background-color:969696;
+opacity:0.8;
+}
+
+.b1
+{
+ color:Yellow;
+ font-size:30px;
+ margin-left:500px;
+}
+
+.c
+{
+ height:120px;
+ width:250px;
+ margin-left:10px;
+ border:1px solid black;
+ float:left;
+}
+
+.d
+{
+ height:120px;
+ width:250px;
+ margin-left:10px;
+ border:1px solid black;
+ float:left;
+}
+
+.e
+{
+ height:120px;
+ width:250px;
+ margin-left:10px;
+ border:1px solid black;
+ float:left;
+}
+
+.f
+{
+ height:120px;
+ width:250px;
+ margin-left:10px;
+ border:1px solid black;
+ float:left;
+}
+
+.c:hover
+{
+	
+}

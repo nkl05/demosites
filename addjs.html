@@ -1,0 +1,22 @@
+<html>
+<head><title> JS </title>
+<script type="text/javascript" >
+function test()
+{
+var a = document.getElementById("txtf").value;
+var b = document.getElementById("txts").value;	
+var c= Number(a)+Number(b);
+//document.getElementById("text3").value=c;
+//alert(c);
+document.write(c);
+}
+</script>
+</head>
+<body>
+First Number : <input type="text" id="txtf"style="colr:red;" ><br/>
+Second Number : <input type="text" id="txts" ><br/>
+third Number : <input type="text" id="text3" ><br/>
+
+<input type="submit" value="Submit" onclick='test();' >
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head><title>swaping</title>
+<script type="text/javascript">
+function one()
+{
+ var a=document.getElementById("one").value;
+ b=document.getElementById("two").value;
+ var c=a;
+ a=b;
+ b=c;
+ 
+ document.getElementById("four").value=b;
+ document.getElementById("three").value=a;
+}
+</script>
+</head>
+<body>
+first num- <input type="text" id="one"><br><br>
+Second num- <input type="text" id="two"><br><br>
+
+after swaping-
+first num -<input type="text" id="three"><br><br>
+second num -<input type="text" id="four"><br><br>
+<input type="submit" onclick="one();">
+</body>
+</html>

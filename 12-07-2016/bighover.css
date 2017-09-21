@@ -1,0 +1,40 @@
+.a
+{
+ height:200px;
+ width:1330px;
+ border:10px solid grey;
+ border-bottom-color:white;
+ border-left-color:white;
+ border-right-color:white;
+}
+
+.b
+{
+ height:100px;
+ width:1300px;
+ font-size:10px;
+}
+
+.b:hover
+{
+ height:100px;
+ width:300px;
+ position:relative;
+ animation-name:chup;
+ -webkit-animation-name:chup;
+ -webkit-animation-duration:5s;
+ animation-duration:5s;
+ transition:2s;
+}
+
+keyframes chup
+{
+  0% {font-size:10px;transition:1s;}
+  100% {font-size:25px;transition:1s;}
+}
+
+@-webkit-keyframes chup
+{
+  0% {font-size:10px;transition:1s;}
+  100% {font-size:25px;transition:1s;}
+}
